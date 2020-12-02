@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Tab3Fragment"
+    tools:context=".Tab5Fragment"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Borrar datos"
+        android:text="Buscar 1 persona"
         android:textAlignment="center"
         android:textSize="24dp"/>
 
@@ -25,7 +25,7 @@
             android:textSize="20dp"
             android:layout_weight="2"/>
         <EditText
-            android:id="@+id/tab3EditText1"
+            android:id="@+id/tab5EditText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
@@ -38,16 +38,24 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/tab3Button1"
+            android:id="@+id/tab5Button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eliminar"
+            android:text="Buscar"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/tab3Button2"
+            android:id="@+id/tab5Button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Limpiar"
             android:layout_weight="1"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab5TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Aquí aparecera el usuario"/>
+
 </LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab1Fragment"
+        android:title="Crear"
+        android:icon="@drawable/ic_create"
+        />
+    <item
+        android:id="@+id/tab2Fragment"
+        android:title="Actualizar"
+        android:icon="@drawable/ic_update"
+        />
+    <item
+        android:id="@+id/tab3Fragment"
+        android:title="Borrar"
+        android:icon="@drawable/ic_delete"
+        />
+    <item
+        android:id="@+id/tab4Fragment"
+        android:title="Listar"
+        android:icon="@drawable/ic_list"
+        />
+    <item
+        android:id="@+id/tab5Fragment"
+        android:title="Buscar"
+        android:icon="@drawable/ic_person"
+        />
+</menu>

@@ -8,7 +8,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
     private static final int DB_VERSION = 1;
     private static final String DB_NAME = "DBAgenda";
-    private static final String DB_TABLE = "Agenda";
+    private static final String DB_TABLE = "agenda";
 
     String sqlCreate = "CREATE TABLE " + DB_TABLE + "(numero integer, nombre text, telefono text)";
 
