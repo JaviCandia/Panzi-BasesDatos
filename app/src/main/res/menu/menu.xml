@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/tab1Fragment"
-        android:title="Crear"
+        android:title="Agregar"
         android:icon="@drawable/ic_create"
         />
     <item
         android:id="@+id/tab2Fragment"
-        android:title="Actualizar"
+        android:title="Editar"
         android:icon="@drawable/ic_update"
         />
     <item
         android:id="@+id/tab3Fragment"
-        android:title="Borrar"
+        android:title="Eliminar"
         android:icon="@drawable/ic_delete"
         />
     <item
         android:id="@+id/tab4Fragment"
-        android:title="Listar"
+        android:title="Ver"
         android:icon="@drawable/ic_list"
         />
     <item
